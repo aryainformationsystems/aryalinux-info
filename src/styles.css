@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'segan';
+    src: url('/assets/fonts/segan.light.ttf');
+}
+
+@font-face {
+    font-family: 'mukta';
+    src: url('/assets/fonts/Mukta-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'mukta regular';
+    src: url('/assets/fonts/Mukta-Regular.ttf');
+}
+
+* {
+    font-family: 'segan', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'mukta', sans-serif;
+}
+
+p, ul li, dd {
+    line-height: 2em;
+    text-align: justify;
+}
+
+dd {
+    margin-bottom: 2em;
+}
+
+.vspace {
+    height: 2em;
+}
