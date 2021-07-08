@@ -15,6 +15,8 @@ import { ScreenshotsComponent } from './pages/screenshots/screenshots.component'
 import { TeamComponent } from './pages/team/team.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { HelpComponent } from './pages/help/help.component';
+import { DocsComponent } from './pages/docs/docs.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     ScreenshotsComponent,
     TeamComponent,
     HistoryComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    HelpComponent,
+    DocsComponent
   ],
   imports: [
     BrowserModule,

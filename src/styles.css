@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 @font-face {
     font-family: 'segan';
     src: url('/assets/fonts/segan.light.ttf');
@@ -18,11 +19,18 @@
     font-family: 'segan', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'mukta', sans-serif;
 }
 
-p, ul li, dd {
+p,
+ul li,
+dd {
     line-height: 2em;
     text-align: justify;
 }
@@ -33,4 +41,9 @@ dd {
 
 .vspace {
     height: 2em;
+}
+
+.heading-band {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }

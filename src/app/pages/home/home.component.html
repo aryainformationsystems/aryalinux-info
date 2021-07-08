@@ -1,81 +1,68 @@
 <div class="hero">
-  <div class="overlay" fxFlex fxLayout="column">
-    <app-nav></app-nav>
-    <div fxFlex fxLayout="row" fxLayoutAlign="center">
-      <div fxLayout="column" fxLayoutAlign="center center">
-        <h1 style="color: #dfdfdf">Welcome to AryaLinux</h1>
-        <h5 style="color: #dfdfdf">Linux for Builders</h5>
-      </div>
+    <div class="overlay" fxFlex fxLayout="column">
+        <app-nav></app-nav>
+        <div fxFlex fxLayout="row" fxLayoutAlign="center">
+            <div fxLayout="column" fxLayoutAlign="center center">
+                <h1 style="color: #dfdfdf">Welcome to AryaLinux</h1>
+                <h5 style="color: #dfdfdf">Linux for Builders</h5>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <div class="container pt-5">
     <div fxLayout="row" fxLayoutGap="30px">
         <div fxFlex="70">
             <h3>Welcome to AryaLinux</h3>
             <p class="pt-3">
-                AryaLinux is a GNU/Linux operating system built from source using
-                instructions from the LFS and BLFS books. Even though AryaLinux started
-                off as an implementation of LFS, a lot of things changed along the way
-                in order to make AryaLinux a complete distribution in itself.
-              </p>
-              <p>
-                AryaLinux supports the KDE Plasma 5, XFCE, Gnome3 and Mate desktop
-                environments as of now, the default being Gnome3
-              </p>
+                AryaLinux is a GNU/Linux operating system built from source using instructions from the LFS and BLFS books. Even though AryaLinux started off as an implementation of LFS, a lot of things changed along the way in order to make AryaLinux a complete distribution
+                in itself.
+            </p>
+            <p>
+                AryaLinux supports the KDE Plasma 5, XFCE, Gnome3 and Mate desktop environments as of now, the default being Gnome3
+            </p>
         </div>
-        <div fxFlex="30" class="bg-dark text-light p-3">
-            <h3 class="text-center">AryaLinux 2.4 Released</h3>
+        <div fxFlex="30" class="bg-dark text-light p-3" style="border-radius: 5px;">
+            <h3 class="text-center pt-4">AryaLinux 2.4 Released</h3>
             <div class="p-3 text-center">
-              <button class="btn btn-primary">Download AryaLinux 2.4 Gnome</button>
-              <p>
-                <a href="#">Release notes</a><br />
-                <a href="#">Other Downloads</a>
-              </p>
+                <button class="btn btn-primary" style="padding: 10px 20px;">Download AryaLinux 2.4 Gnome</button>
+                <div class="pt-4">
+                    <a href="#">Release notes</a><br />
+                    <a href="#">Other Downloads</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="container mt-5">
-  <h1>News Updates</h1>
-  <ul>
-    <li>March 16, 2020 - Fixed the installer issue in gnome and KDE ISOs.</li>
-    <li>March 14, 2020 - AryaLinux 2.4, development release ready.</li>
-    <li>
-      March 14, 2020 - Successfully built the very new gnome-3.36 desktop which
-      was released a few days back.
-    </li>
-    <li>
-      February 8, 2020 - Added build script for google-chrome and removed the
-      chromium-bin script from repository. One can now install the Google Chrome
-      browser on AryaLinux by executing: alps install google-chrome from the
-      terminal.
-    </li>
-    <li>
-      January 15, 2020 - Fixed the openjdk script to use the binary available at
-      https://jdk.java.net/13/ and added build script for maven. Added an
-      article on installation of java development environment and sudo error.
-    </li>
-    <li>
-      January 11, 2020 - Fixed the NameError: global name 'subprocess' is not
-      defined issue with the installer.
-    </li>
-    <li>January 09, 2020 - AryaLinux 2.1 Released.</li>
-    <li>
-      December 30, 2019 - First KDE Plasma build successful. The latest release
-      would ship with the KDE plasma desktop ISO.
-    </li>
-    <li>
-      December 30, 2019 - Starting work on the new website for the new domain.
-    </li>
-    <li>
-      December 27, 2019 - Started working on version 2.1, the next release based
-      on LFS stable 9.0.
-    </li>
-    <li>
-      December 28, 2019 - Successful release build of XFCE, Gnome and Mate for
-      release 2.1.
-    </li>
-  </ul>
+    <h1>News Updates</h1>
+    <ul>
+        <li>March 16, 2020 - Fixed the installer issue in gnome and KDE ISOs.</li>
+        <li>March 14, 2020 - AryaLinux 2.4, development release ready.</li>
+        <li>
+            March 14, 2020 - Successfully built the very new gnome-3.36 desktop which was released a few days back.
+        </li>
+        <li>
+            February 8, 2020 - Added build script for google-chrome and removed the chromium-bin script from repository. One can now install the Google Chrome browser on AryaLinux by executing: alps install google-chrome from the terminal.
+        </li>
+        <li>
+            January 15, 2020 - Fixed the openjdk script to use the binary available at https://jdk.java.net/13/ and added build script for maven. Added an article on installation of java development environment and sudo error.
+        </li>
+        <li>
+            January 11, 2020 - Fixed the NameError: global name 'subprocess' is not defined issue with the installer.
+        </li>
+        <li>January 09, 2020 - AryaLinux 2.1 Released.</li>
+        <li>
+            December 30, 2019 - First KDE Plasma build successful. The latest release would ship with the KDE plasma desktop ISO.
+        </li>
+        <li>
+            December 30, 2019 - Starting work on the new website for the new domain.
+        </li>
+        <li>
+            December 27, 2019 - Started working on version 2.1, the next release based on LFS stable 9.0.
+        </li>
+        <li>
+            December 28, 2019 - Successful release build of XFCE, Gnome and Mate for release 2.1.
+        </li>
+    </ul>
 </div>
 <app-footer></app-footer>
